@@ -1,0 +1,10 @@
+Here's how the program works:
+The program starts by defining an integer variable n and initializing it to 4.
+Then it uses the right shift operator >> to shift the bits of n two positions to the right, which effectively divides the number by 2
+raised to the power of the number of bits shifted. In this case, since two bits are shifted to the right, n is divided by 2 raised to
+the power of 2 (i.e., 4).
+After the shift operation, the value of
+After the shift operation, the value of n becomes 1 (binary representation of 4 is 100 and when we shift it two positions to the
+right, it becomes 1, i.e., 001).
+Finally, the program prints the value of n which is 1.
+OUTPUT:1
