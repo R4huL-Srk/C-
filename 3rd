@@ -1,0 +1,11 @@
+The static variable x is initialized to 1.
+The if statement first outputs the value of x and increments it using the pre-increment operator (++x).
+The output is done using the cout statement which returns a reference to cout. 
+The condition x < N is also checked.
+If the condition in the if statement is true, main() is called recursively.
+The if statement will keep executing as long as x is less than N.
+Once x becomes equal to N (i.e., x becomes 10), the condition in the if statement will fail and the program will terminate.
+Therefore, the output of this program will be:
+1 2 3 4 5 6 7 8 9 10
+The program recursively calls main() until x becomes 10, and with each recursive call, the value of x is incremented and printed 
+until it reaches 10.
