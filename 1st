@@ -1,0 +1,12 @@
+Misspelling of the function name: The function intmain() should be replaced with int main() with a space between int and main.
+Missing namespace and header file: The program uses cout and endl which are defined in the std namespace and requires the iostream 
+header file to be included at the beginning of the program.
+#include <iostream>
+
+int main()
+{
+    std::cout << "\"geeksforgeeks\"";
+    return 0;
+}
+
+this is the corrected code
