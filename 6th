@@ -1,0 +1,21 @@
+Yes, it is possible to use the #include<bits/stdc++.h> header file in C++ to compile and run this program. However,
+it is generally not recommended to use this header file as it includes all the standard headers in the C++ Standard Library, 
+which can slow down the compilation process and increase the memory usage of the program.
+Regarding the code itself, it correctly calculates the maximum and minimum values of two integers a and b without using any
+conditional statements or comparison operators. It does this by using the formula:
+Maximum = (a + b + abs(a - b)) / 2
+Minimum = (a + b - abs(a - b)) / 2
+The abs function is used to calculate the absolute difference between a and b. The program then uses the calculated values to print the maximum and minimum values of a and b.
+Here's the corrected code:
+#include <iostream>
+#include <cstdlib>
+int main()
+{
+    int a = 15, b = 20;
+    std::cout << "max = " << ((a + b) + abs(a - b)) / 2 << std::endl;
+    std::cout << "min = " << ((a + b) - abs(a - b)) / 2 << std::endl;
+    return 0;
+}
+THIS WILL BE THE OUTPUT
+max = 20
+min = 15
