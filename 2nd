@@ -1,0 +1,8 @@
+The given program uses the bitwise XOR operator (^) to compare the values of x and y. 
+The expression x ^ y returns zero if x and y are equal, and a non-zero value if they are not equal. The logical NOT operator (!) is
+then applied to this expression, which will result in a true value if x and y are equal, and a false value if they are not equal.
+Therefore, the output of this program will be:
+x is equal to y
+This is because x and y have been initialized to the same value of 10,
+so the condition !(x ^ y) evaluates to true, and the program
+outputs "x is equal to y".
